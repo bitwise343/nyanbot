@@ -1,20 +1,14 @@
 # About
-quick lil' sumthin for hourly compounding nyan rewards back into the pool
- - right now works for single staking NYAN
- - doesn't have gas checks, doesn't check tx fails
- - use at your own risk
+cli compounding bot built on top of NYAN staking
 
 # Installation
 In the root of the repository
 ```sh
 $ yarn
 ```
-or
-```sh
-$ npm install .
-```
 
 # Setup
+Copy your keys into `.env` after cloning the template `env`
 ```sh
 $ cp env >> .env
 ```
